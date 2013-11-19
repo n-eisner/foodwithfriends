@@ -8,14 +8,15 @@
 
 #import "NREAppDelegate.h"
 
+
 @implementation NREAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    [Parse setApplicationId:@"0dYCVPtIunyBAZdsnureVM0JVrqYNE3Rikfux74K"
+                  clientKey:@"8jiEMFj1ZT4DFlDTIY0RVtk5fWMDS8OgwSMiXc4t"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
 

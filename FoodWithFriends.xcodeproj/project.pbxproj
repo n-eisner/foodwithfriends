@@ -19,6 +19,17 @@
 		AD279852183B1B6F009E549E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD27983A183B1B6C009E549E /* UIKit.framework */; };
 		AD27985A183B1B6F009E549E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD279858183B1B6F009E549E /* InfoPlist.strings */; };
 		AD27985C183B1B6F009E549E /* FoodWithFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD27985B183B1B6F009E549E /* FoodWithFriendsTests.m */; };
+		AD279866183B1C36009E549E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD279865183B1C36009E549E /* Parse.framework */; };
+		AD279868183B1C80009E549E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD279867183B1C80009E549E /* AudioToolbox.framework */; };
+		AD27986A183B1C94009E549E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD279869183B1C94009E549E /* CFNetwork.framework */; };
+		AD27986C183B1CA9009E549E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD27986B183B1CA9009E549E /* CoreLocation.framework */; };
+		AD27986E183B1CBB009E549E /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD27986D183B1CBA009E549E /* libz.1.1.3.dylib */; };
+		AD279870183B1CC9009E549E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD27986F183B1CC9009E549E /* MobileCoreServices.framework */; };
+		AD279872183B1CD4009E549E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD279871183B1CD4009E549E /* QuartzCore.framework */; };
+		AD279874183B1CDF009E549E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD279873183B1CDF009E549E /* Security.framework */; };
+		AD279876183B1CE8009E549E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD279875183B1CE8009E549E /* StoreKit.framework */; };
+		AD279878183B1CF2009E549E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD279877183B1CF2009E549E /* SystemConfiguration.framework */; };
+		AD27987B183B1FCE009E549E /* NREMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD27987A183B1FCE009E549E /* NREMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,18 @@
 		AD279857183B1B6F009E549E /* FoodWithFriendsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodWithFriendsTests-Info.plist"; sourceTree = "<group>"; };
 		AD279859183B1B6F009E549E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD27985B183B1B6F009E549E /* FoodWithFriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodWithFriendsTests.m; sourceTree = "<group>"; };
+		AD279865183B1C36009E549E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		AD279867183B1C80009E549E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AD279869183B1C94009E549E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AD27986B183B1CA9009E549E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AD27986D183B1CBA009E549E /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		AD27986F183B1CC9009E549E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AD279871183B1CD4009E549E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AD279873183B1CDF009E549E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AD279875183B1CE8009E549E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AD279877183B1CF2009E549E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AD279879183B1FCE009E549E /* NREMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NREMainViewController.h; sourceTree = "<group>"; };
+		AD27987A183B1FCE009E549E /* NREMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NREMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +78,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD279878183B1CF2009E549E /* SystemConfiguration.framework in Frameworks */,
+				AD279876183B1CE8009E549E /* StoreKit.framework in Frameworks */,
+				AD279874183B1CDF009E549E /* Security.framework in Frameworks */,
+				AD279872183B1CD4009E549E /* QuartzCore.framework in Frameworks */,
+				AD279870183B1CC9009E549E /* MobileCoreServices.framework in Frameworks */,
+				AD27986E183B1CBB009E549E /* libz.1.1.3.dylib in Frameworks */,
+				AD27986C183B1CA9009E549E /* CoreLocation.framework in Frameworks */,
 				AD279839183B1B6C009E549E /* CoreGraphics.framework in Frameworks */,
+				AD27986A183B1C94009E549E /* CFNetwork.framework in Frameworks */,
+				AD279868183B1C80009E549E /* AudioToolbox.framework in Frameworks */,
 				AD27983B183B1B6C009E549E /* UIKit.framework in Frameworks */,
+				AD279866183B1C36009E549E /* Parse.framework in Frameworks */,
 				AD279837183B1B6C009E549E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +129,16 @@
 		AD279835183B1B6C009E549E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD279877183B1CF2009E549E /* SystemConfiguration.framework */,
+				AD279875183B1CE8009E549E /* StoreKit.framework */,
+				AD279873183B1CDF009E549E /* Security.framework */,
+				AD279871183B1CD4009E549E /* QuartzCore.framework */,
+				AD27986F183B1CC9009E549E /* MobileCoreServices.framework */,
+				AD27986D183B1CBA009E549E /* libz.1.1.3.dylib */,
+				AD27986B183B1CA9009E549E /* CoreLocation.framework */,
+				AD279869183B1C94009E549E /* CFNetwork.framework */,
+				AD279867183B1C80009E549E /* AudioToolbox.framework */,
+				AD279865183B1C36009E549E /* Parse.framework */,
 				AD279836183B1B6C009E549E /* Foundation.framework */,
 				AD279838183B1B6C009E549E /* CoreGraphics.framework */,
 				AD27983A183B1B6C009E549E /* UIKit.framework */,
@@ -111,6 +154,8 @@
 				AD279846183B1B6D009E549E /* NREAppDelegate.m */,
 				AD279848183B1B6D009E549E /* Images.xcassets */,
 				AD27983D183B1B6C009E549E /* Supporting Files */,
+				AD279879183B1FCE009E549E /* NREMainViewController.h */,
+				AD27987A183B1FCE009E549E /* NREMainViewController.m */,
 			);
 			path = FoodWithFriends;
 			sourceTree = "<group>";
@@ -192,6 +237,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = YUM;
 				TargetAttributes = {
+					AD279832183B1B6B009E549E = {
+						DevelopmentTeam = 33E4JZVJ5G;
+					};
 					AD27984D183B1B6F009E549E = {
 						TestTargetID = AD279832183B1B6B009E549E;
 					};
@@ -242,6 +290,7 @@
 			files = (
 				AD279847183B1B6D009E549E /* NREAppDelegate.m in Sources */,
 				AD279843183B1B6D009E549E /* main.m in Sources */,
+				AD27987B183B1FCE009E549E /* NREMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,10 +405,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/natalieeisner/Documents/foodwithfriends/FoodWithFriends,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoodWithFriends/FoodWithFriends-Prefix.pch";
 				INFOPLIST_FILE = "FoodWithFriends/FoodWithFriends-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -369,10 +425,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/natalieeisner/Documents/foodwithfriends/FoodWithFriends,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoodWithFriends/FoodWithFriends-Prefix.pch";
 				INFOPLIST_FILE = "FoodWithFriends/FoodWithFriends-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
