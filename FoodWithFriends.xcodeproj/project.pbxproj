@@ -30,6 +30,9 @@
 		AD279876183B1CE8009E549E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD279875183B1CE8009E549E /* StoreKit.framework */; };
 		AD279878183B1CF2009E549E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD279877183B1CF2009E549E /* SystemConfiguration.framework */; };
 		AD27987B183B1FCE009E549E /* NREMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD27987A183B1FCE009E549E /* NREMainViewController.m */; };
+		FC9B7F0B183D471500B8DBE4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9B7F0A183D471500B8DBE4 /* MainStoryboard.storyboard */; };
+		FCAC783C183B2BB2000ADBE1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAC783B183B2BB2000ADBE1 /* FacebookSDK.framework */; };
+		FCAC783F183B2DA3000ADBE1 /* NRELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAC783E183B2DA3000ADBE1 /* NRELoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,10 @@
 		AD279877183B1CF2009E549E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AD279879183B1FCE009E549E /* NREMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NREMainViewController.h; sourceTree = "<group>"; };
 		AD27987A183B1FCE009E549E /* NREMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NREMainViewController.m; sourceTree = "<group>"; };
+		FC9B7F0A183D471500B8DBE4 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FCAC783B183B2BB2000ADBE1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		FCAC783D183B2DA3000ADBE1 /* NRELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRELoginViewController.h; sourceTree = "<group>"; };
+		FCAC783E183B2DA3000ADBE1 /* NRELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRELoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +98,7 @@
 				AD27983B183B1B6C009E549E /* UIKit.framework in Frameworks */,
 				AD279866183B1C36009E549E /* Parse.framework in Frameworks */,
 				AD279837183B1B6C009E549E /* Foundation.framework in Frameworks */,
+				FCAC783C183B2BB2000ADBE1 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +137,7 @@
 		AD279835183B1B6C009E549E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCAC783B183B2BB2000ADBE1 /* FacebookSDK.framework */,
 				AD279877183B1CF2009E549E /* SystemConfiguration.framework */,
 				AD279875183B1CE8009E549E /* StoreKit.framework */,
 				AD279873183B1CDF009E549E /* Security.framework */,
@@ -156,6 +165,9 @@
 				AD27983D183B1B6C009E549E /* Supporting Files */,
 				AD279879183B1FCE009E549E /* NREMainViewController.h */,
 				AD27987A183B1FCE009E549E /* NREMainViewController.m */,
+				FCAC783D183B2DA3000ADBE1 /* NRELoginViewController.h */,
+				FCAC783E183B2DA3000ADBE1 /* NRELoginViewController.m */,
+				FC9B7F0A183D471500B8DBE4 /* MainStoryboard.storyboard */,
 			);
 			path = FoodWithFriends;
 			sourceTree = "<group>";
@@ -268,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9B7F0B183D471500B8DBE4 /* MainStoryboard.storyboard in Resources */,
 				AD279841183B1B6D009E549E /* InfoPlist.strings in Resources */,
 				AD279849183B1B6D009E549E /* Images.xcassets in Resources */,
 			);
@@ -288,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAC783F183B2DA3000ADBE1 /* NRELoginViewController.m in Sources */,
 				AD279847183B1B6D009E549E /* NREAppDelegate.m in Sources */,
 				AD279843183B1B6D009E549E /* main.m in Sources */,
 				AD27987B183B1FCE009E549E /* NREMainViewController.m in Sources */,
@@ -410,6 +424,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/natalieeisner/Documents/foodwithfriends/FoodWithFriends,
+					/Users/rachelbrown/Dropbox/Schoolwork/CIS/CIS195/FoodWithFriends,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoodWithFriends/FoodWithFriends-Prefix.pch";
@@ -430,6 +445,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/natalieeisner/Documents/foodwithfriends/FoodWithFriends,
+					/Users/rachelbrown/Dropbox/Schoolwork/CIS/CIS195/FoodWithFriends,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoodWithFriends/FoodWithFriends-Prefix.pch";
@@ -499,6 +515,7 @@
 				AD279861183B1B6F009E549E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD279862183B1B6F009E549E /* Build configuration list for PBXNativeTarget "FoodWithFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +524,7 @@
 				AD279864183B1B6F009E549E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
